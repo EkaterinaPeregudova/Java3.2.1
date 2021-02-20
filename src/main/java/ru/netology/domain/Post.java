@@ -10,6 +10,43 @@ public class Post {
     private int replyOwnerId;
     private int replyPostId;
 
+    private LikesInfo likesInfo;
+    private CommentsInfo commentsInfo;
+    private Repost repost;
+    private ViewsInfo viewsInfo;
+
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
+    }
+
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
+    }
+
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
+    }
+
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
+    }
+
+    public Repost getRepost() {
+        return repost;
+    }
+
+    public void setRepost(Repost repost) {
+        this.repost = repost;
+    }
+
+    public ViewsInfo getViewsInfo() {
+        return viewsInfo;
+    }
+
+    public void setViewsInfo(ViewsInfo viewsInfo) {
+        this.viewsInfo = viewsInfo;
+    }
+
     public int getId() {
         return id;
     }
