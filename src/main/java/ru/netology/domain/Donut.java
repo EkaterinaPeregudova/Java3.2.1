@@ -1,0 +1,32 @@
+package ru.netology.domain;
+
+public class Donut {
+    private boolean isDonut;
+    private int paidDuration;
+    private boolean canPublishFreeCopy;
+    String editMode;
+
+    public boolean isDonut() {
+        return isDonut;
+    }
+
+    public void setDonut(boolean donut) {
+        isDonut = donut;
+    }
+
+    public int getPaidDuration() {
+        return paidDuration;
+    }
+
+    public void setPaidDuration(int paidDuration) {
+        this.paidDuration = paidDuration;
+    }
+
+    public boolean isCanPublishFreeCopy() {
+        return canPublishFreeCopy;
+    }
+
+    public void setCanPublishFreeCopy(boolean canPublishFreeCopy) {
+        this.canPublishFreeCopy = canPublishFreeCopy;
+    }
+}
